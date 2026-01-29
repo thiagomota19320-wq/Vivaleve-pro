@@ -1,0 +1,23 @@
+name: vivaleve_pro
+description: VivaLeve PRO - App Fitness com IA
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  firebase_functions: ^5.0.1
+  firebase_storage: ^11.6.0
+  google_sign_in: ^6.2.1
+  provider: ^6.1.2
+  intl: ^0.19.0
+  fl_chart: ^0.66.0
+  image_picker: ^1.0.7
+
+flutter:
+  uses-material-design: true
